@@ -39,6 +39,7 @@
         $divisione= "Errore: impossibile dividere per 0";
     }else{
         $divisione = $int_num1 / $int_num2;
+        $divisione = number_format($divisione,2);
     }
     
 
